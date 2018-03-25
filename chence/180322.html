@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+//    var name = 'global';
+//
+//    var obj = {
+//        name : 'obj',
+//        dose : function(){
+//            this.name = 'dose';
+//            return function(){
+//                return this.name;
+//            }
+//        }
+//    }
+//
+//    console.log(obj.dose().call(this))
+//var name = 'global';
+//
+//var obj = {
+//    name : 'obj',
+//    dose : function(){
+//        var that = this;
+//        this.name = 'dose';
+//        return function(){
+//            return that.name+this.name;
+//
+//        }
+//    }
+//}
+//
+//alert(obj.dose().call(this))
+
+//    var name = 'global';
+//
+//    var obj = {
+//        name : 'obj',
+//        dose : function(){
+//            this.name = 'dose';
+//            return function(){
+//                return this.name;
+//            }.bind(this)
+//        }
+//    }
+//
+//    console.log(obj.dose().call(this));
+//    console.log(obj.name);
+(function() {
+        this.name = "nenen";
+    })();
+    console.log(name);
+</script>
+</body>
+</html>

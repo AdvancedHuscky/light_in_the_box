@@ -1,0 +1,253 @@
+@wrap-width:992px;
+@margin:0 auto;
+@brands-icon-url:url(../images/icon/footer-img_e4598ce19e8da218.png);
+@brands-icon-why-buy:url(../images/icon/footer-img_e4598ce19e8da218.png);
+@brands-partner:url(../images/icon/footer_55806cbd262c5773.png);
+@brands-red-darker:#cb2027;
+@brands-red-brighter:#e02a2e;
+.left{
+  float: left;
+}
+.clearFix:after{
+  content: '';
+  display: block;
+  visibility: hidden;
+  height:0;
+  clear:both;
+}
+footer{
+  width: 100%;
+
+  .wrap{
+    width: @wrap-width;
+    margin: @margin;
+    background:#f6f4f5;
+    h2{
+      text-align: center;
+      border-bottom: 1px solid #aaa;
+      line-height:50px;
+      .small{
+        font-size: small;
+      }
+      .stock-text{
+        font-size: 14px;
+      }
+    }
+    .media-email{
+      width: @wrap-width;
+      .join-us {
+        .left;
+        width: 50%;
+        height: 100px;
+        .social-brands {
+          display: inline-block;
+          margin-right: 20px;
+        }
+        .litb-icon-facebook {
+          width: 12px;
+          height: 27px;
+          background: @brands-icon-url -155px -79px no-repeat
+        }
+        .litb-icon-facebook:hover {
+          background-position: -186px -5px;
+        }
+        .litb-icon-instagram {
+          width: 27px;
+          height: 26px;
+          background: @brands-icon-url -42px -116px no-repeat
+        }
+        .litb-icon-instagram:hover {
+          background-position: -5px -116px;
+        }
+        .litb-icon-pinterest {
+          width: 21px;
+          height: 27px;
+          background: @brands-icon-url -155px -5px no-repeat;
+        }
+        .litb-icon-pinterest:hover {
+          background-position: -155px -42px;
+        }
+        .litb-icon-youtube {
+          width: 26px;
+          height: 26px;
+          background: @brands-icon-url -79px -116px no-repeat
+        }
+        .litb-icon-youtube:hover {
+          background-position: -115px -116px
+        }
+        .litb-icon-twitter {
+          width: 26px;
+          height: 24px;
+          background: @brands-icon-url -85px -81px no-repeat;
+        }
+        .litb-icon-twitter:hover {
+          background-position: -49px -81px;
+        }
+        .litb-icon-tumblr {
+          width: 17px;
+          height: 26px;
+          background: @brands-icon-url -69px -152px no-repeat;
+        }
+        .litb-icon-tumblr:hover {
+          background-position: -155px -116px;
+        }
+        .litb-icon-litb_blog {
+          width: 22px;
+          height: 26px;
+          background: @brands-icon-url -37px -152px no-repeat;
+        }
+        .litb-icon-litb_blog:hover {
+          background-position: -5px -152px;
+        }
+        .litb-icon-vk {
+          width: 34px;
+          height: 25px;
+          background: @brands-icon-url -109px -34px no-repeat;
+        }
+        .litb-icon-vk:hover {
+          background-position: -5px -81px;
+        }
+      }
+      .email{
+        .left;
+        width: 50%;
+        .email-input{
+          height:27px;
+          width:240px;
+          padding:0;
+        }
+        .email-submit{
+          height: 30px;
+          width: 120px;
+          outline: 0;
+          border:0;
+          color:#fff;
+          font-weight: 700;
+          background: @brands-red-darker;
+        }
+        .email-submit:hover{
+          background: @brands-red-brighter;
+        }
+      }
+    }
+    .why-buy-from-us{
+      .from-us-better{
+        position: relative;
+        width: 20%;
+        .litb-icon-better {
+          position: absolute;
+          width: 18px;
+          height: 22px;
+          background: @brands-icon-why-buy -125px -152px no-repeat;
+        }
+        .litb-icon-low-price {
+          position: absolute;
+          width: 19px;
+          height: 22px;
+          background: @brands-icon-why-buy -96px -152px no-repeat;
+        }
+        .litb-icon-safe {
+          position: absolute;
+          width: 17px;
+          height: 22px;
+          background: @brands-icon-why-buy -153px -152px no-repeat;
+        }
+        .litb-icon-fast-delivery {
+          position: absolute;
+          width: 22px;
+          height: 19px;
+          background: @brands-icon-why-buy -109px -5px no-repeat;
+        }
+        .litb-icon-services {
+          position: absolute;
+          width: 22px;
+          height: 22px;
+          background: @brands-icon-why-buy -121px -81px no-repeat;
+        }
+        dt{
+          font-size:12px;
+          margin-left: 26px;
+          font-weight:bold;
+        }
+        dd{
+          font-size:12px;
+          margin-left: 26px;
+        }
+      }
+
+    }
+
+  }
+  .wrap-for-customer{
+    width: @wrap-width;
+    margin: @margin;
+    background:#E5E3E4;
+    .customer-help{
+      color:#000;
+      font-size: 12px;
+      .help-block{
+        width:20%;
+        dt a{
+          text-decoration: none;
+          font-weight: bold;
+          color:#000;
+        }
+        dd{
+          margin:5px 0;
+        }
+        dd a{
+          text-decoration: none;
+          color:#000;
+        }
+        dd a:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+    .footer-partners{
+      text-align: center;
+      span{
+        display:inline-block;
+        margin-right:5px;
+        text-indent: -9999px;
+        margin-top:20px;
+      }
+      .banks{
+        width: 222px;
+        height: 30px;
+        background: @brands-partner 0px 0px no-repeat;
+      }
+      .boleto-logo-footer {
+        margin-top: 8px;
+        height: 30px;
+        width: 58px;
+        vertical-align: middle;
+        background: @brands-partner -51px -163px no-repeat;
+      }
+      .banks, .westernUnion, .paypal, .delivery {
+        height: 30px;
+        margin-top: 21px;
+      }
+      .westernUnion {
+        width: 105px;
+        background: @brands-partner 0 -60px no-repeat;
+      }
+      .norton-logo {
+        width: 77px;
+        height: 30px;
+        background: @brands-partner -106px -282px no-repeat;
+        vertical-align: middle;
+        margin-top: 8px;
+      }
+      .delivery {
+        width: 214px;
+        background: @brands-partner 0 -30px no-repeat;
+      }
+    }
+    .copyright {
+      text-align: center;
+      padding: 1px 0 20px;
+      font: 12px/34px Helvetica,Arial;
+    }
+  }
+}

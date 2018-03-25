@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+//    var foo = "Hello";
+//    (function () {
+//        var bar = "world";
+//        console.log(foo + bar);
+//    })();
+//    console.log(foo + bar);
+
+//    var doo =1;
+//    (function () {
+//        console.log(doo);
+//        var doo=2;
+//        console.log(doo);
+//    })()
+    name = "Ruby";
+    var Model = function () {
+        this.name = "Lily";
+    };
+    Model.prototype.name = "Grace";
+    Model.prototype.say = function () {
+        console.log(this.name);
+        console.log(this.getFullName());
+        function test(){
+            name = "Daisy";
+            console.log(this.name);
+            console.log(this);
+            console.log(this.getFullName());
+        }
+        test();
+//        (function(){
+//            name = "Daisy";
+//            console.log(this.name);
+//            console.log(this);
+//            console.log(this.getFullName());
+//        })()
+    };
+    Model.prototype.getFullName = function () {
+        return this.name + "";
+    };
+    var m = new Model();
+    m.say();
+
+
+</script>
+</body>
+</html>
