@@ -313,7 +313,13 @@
 .content_container .flash_sale_list{
     position:relative;
     width: 992px;
+    height:300px;
     overflow:hidden;
+}
+.content_container .flash_sale_list .slide_page{
+    position: absolute;
+    width: 5500px;
+    overflow: hidden;
 }
 .content_container .flash_sale_list .slideRect{
     width: 30px;

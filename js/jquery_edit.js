@@ -50,3 +50,64 @@ $(function(){
     }
 );
 
+$(()=>{
+    $.get('data/index/flash_sales.php').then(resData=>{
+        let html = "";
+        let Liwidth = 992;
+        let $slidepage = $('.slide_page');
+        for(item of resData){
+            html+= `<li class="slide_section">
+                    <em class="hotsale icon">HOT</em>
+                    <a href=""><img src="${item.img1}" alt=""></a>
+                    <a href=""><img src="${item.img2}" alt=""></a>
+                    <a href=""><img src="${item.img3}" alt=""></a>
+                    <a href=""><img src="${item.img4}" alt=""></a>
+                    <a href="">
+                        <div class="brand_title">${item.title}</div>
+                    </a>
+                    <a href="">
+                        <div class="brand_price">${item.price}</div>
+                    </a>
+                    <a href="">
+                        <div class="timer"><i class="iconfont">&#xe6bb;</i><span class="timer-count"></span></div>
+                    </a>
+                </li>`
+        }
+        $slidepage.html(html).css('width',Liwidth*resData.length);
+        let countdown = resData[0].countdown;
+        setInterval(function(){
+            countdown--;
+            let day = Math.floor(countdown/86400);
+            let hour = Math.floor((countdown/3600)%24);
+            let min = Math.floor(countdown/60)%60;
+            let sec = countdown%60;
+            if(hour<10)hour='0'+hour;
+            if(min<10)min = "0"+min;
+            if(sec<10)sec = '0'+sec;
+            $('.timer .timer-count').html(`Ends in ${day} Days ${hour}:${min}:${sec}`);
+        },1000);
+    });
+
+});
+$(()=>{
+    let Liwidth = 992;
+    let moved = 0;
+    let timer = null;
+    let duration = 500;
+    let wait = 3000;
+    setInterval(()=>{
+        moved++;
+        $('.slide_page').animate({
+            left:-Liwidth*moved
+        },duration,function(){
+            if(moved==4){
+                moved = 0;
+                $('.slide_page').css("left",0)
+            }
+        })
+    },wait+duration)
+})
+
+
+
+
