@@ -2,6 +2,9 @@
     width: 992px;
     margin:0 auto;
 }
+.container-header .container{
+    position: relative;
+}
 .container-header .container .nav-header-new .litb-logo{
     display:inline-block;
     width: 238px;
@@ -93,6 +96,7 @@
     width:214px;
     height:26px;
     padding-left:20px;
+    border:1px solid #fff;
     font-weight: normal;
     cursor: pointer;
     z-index: 50;
@@ -185,8 +189,8 @@
 }
 .carousel_wrap{
     position:absolute;
-    top:107px;
-    left:246px;
+    top:94px;
+    left:238px;
 }
 .carousel{
     position:relative;

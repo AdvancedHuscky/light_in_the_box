@@ -1,10 +1,11 @@
 //页面左边导航栏，悬浮显示
-$(()=>{
+$(()=> {
     let $nav_h2 = $(".nav-bar-all .nav-menu .nav-list .line-13 h2");
-    $nav_h2.hover(()=>{
-        $(this).nextElementSibling.css("display","block")
-    })
-});
+    $nav_h2.hover(function () {
+        let curItem = $(this);
+        curItem.next().toggle();
+    });
+})
 //轮播图
 $(function(){
     const LiWidth = 752;
@@ -47,5 +48,5 @@ $(function(){
         moved=i;
     })
     }
-)
+);
 
