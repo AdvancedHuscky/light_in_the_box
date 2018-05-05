@@ -86,6 +86,7 @@
     font-size: 18px;
 }
 .nav-bar-all .nav-menu .nav-list .line-13{
+    font-family: sans-serif; 
     position: relative;
     width: 236px;
     height:319px;
@@ -121,8 +122,28 @@
     top:0;
     left:236px;
     width: 752px;
-    height:500px;
     border:1px solid #eee;
+    background: #fff;
+    z-index: 600;
+}
+.nav-bar-all .nav-menu .nav-list .line-13 .nav-s-ca span{
+    display: block;
+}
+.nav-bar-all .nav-menu .nav-list .line-13 .nav-s-ca li {
+    font-family: sans-serif; 
+    width: 200px;
+    margin-right: 20px;
+    float: left;
+}
+.nav-bar-all .nav-menu .nav-list .line-13 .nav-s-ca h2{
+    font-family: sans-serif; 
+    font-size: 16px;
+    color: #e02a2e;
+}
+.nav-bar-all .nav-menu .nav-list .line-13 .nav-s-ca h3{
+    font-family: sans-serif;  
+    font-size: 16px;
+    color: #e02a2e;
 }
 .nav-bar-all .search-form{
     position:absolute;
