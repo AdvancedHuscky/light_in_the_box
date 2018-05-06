@@ -562,3 +562,25 @@
     text-align: center;
     font-size: 14px;
 }
+.floor-nav{
+    position: fixed;
+    left: 80px;
+    bottom: 50px;
+}
+.floor-nav ul li{
+    width: 40px;
+    height: 40px;
+    background-color: #666;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 16px;
+}
+.floor-nav ul li a{
+    color: #fff;
+    font-weight: 400;
+    line-height: 40px;
+}
+.floor-nav ul li a i{
+    font-size: 25px;
+}
