@@ -576,6 +576,9 @@
     text-align: center;
     line-height: 16px;
 }
+.floor-nav ul li.active{
+    background: #e02a2e;
+}
 .floor-nav ul li a{
     color: #fff;
     font-weight: 400;
@@ -583,4 +586,26 @@
 }
 .floor-nav ul li a i{
     font-size: 25px;
+}
+.goTop{
+    position: fixed;
+    right: 80px;
+    bottom: 50px;
+    width: 40px;
+    height: 40px;
+    background-color: #666;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    transform: rotate(90deg);
+}
+.goTop:hover{
+    background-color: #e02a2e;
+    cursor: pointer;
+}
+.goTop span{
+    color: #fff;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 40px;
 }

@@ -49,7 +49,7 @@ $(function(){
     })
     }
 );
-
+//flash sale ajax request
 $(()=>{
     $.get('data/index/flash_sales.php').then(resData=>{
         let html = "";
@@ -89,6 +89,7 @@ $(()=>{
     });
 
 });
+//flash sale carosel
 $(()=>{
     let Liwidth = 992;
     let moved = 0;
@@ -106,6 +107,39 @@ $(()=>{
             }
         })
     },wait+duration)
+})
+//floor nav
+$(()=>{
+    let oNav = $(".floor-nav");
+    let aNav = oNav.find('li');
+    let aDiv = $(".content_container .flash_bar");
+    let oTop = $('.goTop');
+    $(window).scroll(()=>{
+        //可视窗口高度
+        let winH = $(window).height();
+        //鼠标滚动距离
+        let iTop = $(window).scrollTop();
+        //console.log(iTop);
+        if(iTop >= $('header').height()){
+            oNav.fadeIn();
+            oTop.fadeIn();
+            //鼠标滑动样式改变
+            console.log(aDiv);
+            aDiv.each(function(){
+                //console.log($(this));
+                //console.log($(this).offset().top);
+
+                if(winH + iTop - $(this).offset().top > winH/2){
+                    aNav.removeClass('active');
+                    console.log($(this).index());
+                    aNav.eq($(this).index(".flash_bar")).addClass('active');
+                }
+            })
+        } else{
+            oNav.fadeOut();
+            oTop.fadeOut();
+        }
+    })
 })
 
 
