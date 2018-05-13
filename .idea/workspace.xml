@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4e94b557-297b-48bb-a769-bae7095b0b47" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/xiaomiproduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/xiaomiproduct.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xiaomi.html" beforeDir="false" afterPath="$PROJECT_DIR$/xiaomi.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -57,8 +58,8 @@
       <file leaf-file-name="xiaomi.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xiaomi.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="348" column="24" selection-start-line="348" selection-start-column="24" selection-end-line="348" selection-end-column="24" />
+            <state relative-caret-position="212">
+              <caret line="723" column="10" selection-start-line="723" selection-start-column="10" selection-end-line="723" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#81062#81067#0" expanded="true" />
@@ -97,11 +98,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="xiaomi_all.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="xiaomiproduct.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/xiaomiproduct.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery_edit.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/jquery_edit.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xiaomi_all.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/products/xiaomi_all.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+            <state relative-caret-position="242">
+              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -127,15 +146,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="en.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/xiaomi/en.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret column="1991" selection-start-column="1991" selection-end-column="1991" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/xiaomi/main.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -150,9 +160,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -207,9 +217,10 @@
         <option value="$PROJECT_DIR$/css/xiaomi/main.css" />
         <option value="$PROJECT_DIR$/css/xiaomi/default.css" />
         <option value="$PROJECT_DIR$/css/xiaomi/en.css" />
-        <option value="$PROJECT_DIR$/xiaomi.html" />
         <option value="$PROJECT_DIR$/data/products/xiaomi_all" />
         <option value="$PROJECT_DIR$/data/products/xiaomi_all.php" />
+        <option value="$PROJECT_DIR$/xiaomi.html" />
+        <option value="$PROJECT_DIR$/js/xiaomiproduct.js" />
       </list>
     </option>
   </component>
@@ -235,8 +246,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="61" />
-    <option name="y" value="46" />
+    <option name="x" value="88" />
+    <option name="y" value="130" />
     <option name="width" value="1680" />
     <option name="height" value="965" />
   </component>
@@ -258,19 +269,20 @@
             <path>
               <item name="lighting" type="b2602c69:ProjectViewProjectNode" />
               <item name="lighting" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lighting" type="b2602c69:ProjectViewProjectNode" />
               <item name="lighting" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="Xiaomi_Online" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lighting" type="b2602c69:ProjectViewProjectNode" />
               <item name="lighting" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="products" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="Xiaomi_Online" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaomi_laptop" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -345,15 +357,15 @@
       <workItem from="1525491696670" duration="3851000" />
       <workItem from="1525506737937" duration="7631000" />
       <workItem from="1525561340970" duration="5716000" />
-      <workItem from="1526182803003" duration="2962000" />
+      <workItem from="1526182803003" duration="5274000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94709000" />
+    <option name="totallyTimeSpent" value="97021000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="61" y="46" width="1680" height="965" extended-state="0" />
+    <frame x="88" y="130" width="1680" height="965" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13984329" />
@@ -408,7 +420,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/init.css" />
     <entry file="file://$PROJECT_DIR$/paste.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -566,7 +577,49 @@
     <entry file="file://$PROJECT_DIR$/css/init.css" />
     <entry file="file://$PROJECT_DIR$/css/footer.less" />
     <entry file="file://$PROJECT_DIR$/css/index.css" />
-    <entry file="file://$PROJECT_DIR$/js/jquery_edit.js" />
+    <entry file="file://$PROJECT_DIR$/css/xiaomi/en.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret column="1991" selection-start-column="1991" selection-end-column="1991" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery-1.11.3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/xiaomi/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret column="159250" selection-start-column="159240" selection-end-column="159250" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/products/xiaomi_all">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/products/xiaomi_all.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/index/flash_sales.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/init.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/xiaomi/default.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
@@ -600,46 +653,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/xiaomi/en.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret column="1991" selection-start-column="1991" selection-end-column="1991" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery-1.11.3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/xiaomi/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret column="159250" selection-start-column="159240" selection-end-column="159250" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/products/xiaomi_all">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/init.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/index/flash_sales.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/xiaomi.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="348" column="24" selection-start-line="348" selection-start-column="24" selection-end-line="348" selection-end-column="24" />
+        <state relative-caret-position="212">
+          <caret line="723" column="10" selection-start-line="723" selection-start-column="10" selection-end-line="723" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#81062#81067#0" expanded="true" />
@@ -677,10 +694,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/products/xiaomi_all.php">
+    <entry file="file://$PROJECT_DIR$/js/jquery_edit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        <state relative-caret-position="151">
+          <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/xiaomiproduct.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
         </state>
       </provider>
     </entry>
